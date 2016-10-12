@@ -27,7 +27,7 @@
             "label": "c2",
             "validLabel": "c2"
         },
-        "size": "",
+        "size": null,
         "color": "",
         "text": "",
         "shape": "",
@@ -891,7 +891,7 @@
         "height": 462,
         "width": 713
     },
-    "timestamp": "2016-10-12T04:00:40.898Z",
+    "timestamp": "2016-10-12T04:04:57.481Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
