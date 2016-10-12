@@ -1,0 +1,11 @@
+{
+    "name": "Kiwi_Weather.func",
+    "displayName": "Kiwi_Weather.func",
+    "src": "Kiwi_Weather.func.R",
+    "type": "user-defined-data-source",
+    "dependencies": [],
+    "timestamp": "2016-10-12T03:51:35.471Z",
+    "updatedBy": "",
+    "transform": {},
+    "inputParameters": []
+}
