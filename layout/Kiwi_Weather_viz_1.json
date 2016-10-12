@@ -6,9 +6,27 @@
     ],
     "transformName": "",
     "options": {
-        "marker": "pivot",
-        "x": "",
-        "y": "",
+        "marker": "map",
+        "x": {
+            "name": "lon",
+            "validName": "lon",
+            "type": "numeric",
+            "isNumeric": true,
+            "isDate": false,
+            "func": "none",
+            "label": "c1",
+            "validLabel": "c1"
+        },
+        "y": {
+            "name": "lat",
+            "validName": "lat",
+            "type": "numeric",
+            "isNumeric": true,
+            "isDate": false,
+            "func": "none",
+            "label": "c2",
+            "validLabel": "c2"
+        },
         "size": "",
         "color": "",
         "text": "",
@@ -17,7 +35,16 @@
         "facetrow": "",
         "barstyle": "stack",
         "barsort": "off",
-        "label": "",
+        "label": {
+            "name": "id",
+            "validName": "id",
+            "type": "character",
+            "isNumeric": false,
+            "isDate": false,
+            "func": "none",
+            "label": "c3",
+            "validLabel": "c3"
+        },
         "colh": "",
         "rowh": "",
         "meas": "",
@@ -59,9 +86,47 @@
                 "isDate": false
             }
         ],
-        "data": null
+        "data": [
+            {
+                "c1": 174.7917,
+                "c2": -37.0081,
+                "c3": "NZAA"
+            },
+            {
+                "c1": -157.4833,
+                "c2": 1.9833,
+                "c3": "PLCH"
+            },
+            {
+                "c1": 172.55,
+                "c2": -43.4833,
+                "c3": "NZCH"
+            },
+            {
+                "c1": 175.3806,
+                "c2": -40.196,
+                "c3": "NZOH"
+            },
+            {
+                "c1": 164.1472,
+                "c2": -74.6875,
+                "c3": "NZTB"
+            },
+            {
+                "c1": 174.8053,
+                "c2": -41.3272,
+                "c3": "NZWN"
+            },
+            {
+                "c1": 174.6214,
+                "c2": -36.7928,
+                "c3": "NZWP"
+            }
+        ],
+        "height": 462,
+        "width": 713
     },
-    "timestamp": "2016-10-12T03:51:41.915Z",
+    "timestamp": "2016-10-12T03:55:34.256Z",
     "updatedBy": "",
     "snapshot": null,
     "publicTitle": "",
