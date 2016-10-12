@@ -16,7 +16,7 @@
     "transform": {
         "type": "",
         "props": {},
-        "script": "filter(name == \"SYDNEY INTL AIRP\")",
+        "script": "filter(!is.na(name))",
         "command": {
             "name": "filter",
             "conditions": [
@@ -26,11 +26,12 @@
                         "name": "name",
                         "type": "character"
                     },
-                    "operator": "equalTo",
+                    "operator": "isNotNA",
                     "val": "SYDNEY INTL AIRP"
                 }
             ]
         }
     },
-    "timestamp": "2016-10-12T23:48:25.876Z"
+    "timestamp": "2016-10-12T23:59:51.849Z",
+    "filename": "AUS_Weather_Data_e1949aa9e8ad.json"
 }
