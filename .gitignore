@@ -1,0 +1,3 @@
+/scripts/*
+/rdata/*
+!/rdata/dummy.txt
