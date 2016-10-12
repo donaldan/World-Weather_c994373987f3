@@ -1,0 +1,11 @@
+{
+    "name": "stations.func",
+    "displayName": "stations.func",
+    "src": "stations.func.R",
+    "type": "user-defined-data-source",
+    "dependencies": [],
+    "timestamp": "2016-10-12T03:20:20.405Z",
+    "updatedBy": "",
+    "transform": {},
+    "inputParameters": []
+}
