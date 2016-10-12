@@ -1,0 +1,22 @@
+{
+    "name": "AUS_Weather_Data_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "AUS_Weather_Data"
+    },
+    "props": {},
+    "transform": {
+        "type": "RSCRIPT",
+        "props": {
+            "udf": "AUS_Weather_Data.func",
+            "escapedUDF": "AUS_Weather_Data.func",
+            "params": [],
+            "timestamp": "2016-10-12T03:59:39.233Z"
+        },
+        "script": "AUS_Weather_Data.func()"
+    },
+    "timestamp": "2016-10-12T03:59:39.225Z"
+}
