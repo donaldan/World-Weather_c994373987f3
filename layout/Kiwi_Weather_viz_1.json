@@ -1,0 +1,74 @@
+{
+    "name": "Kiwi_Weather_viz_1",
+    "displayName": "Chart 1",
+    "dependencies": [
+        "Kiwi_Weather"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "pivot",
+        "x": "",
+        "y": "",
+        "size": "",
+        "color": "",
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "id",
+                "type": "character",
+                "escapedName": "id",
+                "_row": "id",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "name",
+                "type": "character",
+                "escapedName": "name",
+                "_row": "name",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "lon",
+                "type": "numeric",
+                "escapedName": "lon",
+                "_row": "lon",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "lat",
+                "type": "numeric",
+                "escapedName": "lat",
+                "_row": "lat",
+                "isNumeric": true,
+                "isDate": false
+            }
+        ],
+        "data": null
+    },
+    "timestamp": "2016-10-12T03:51:41.915Z",
+    "updatedBy": "",
+    "snapshot": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "publicWithData": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
