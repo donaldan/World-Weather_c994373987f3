@@ -14,7 +14,7 @@
             "udf": "AUS_Weather_Data.func",
             "escapedUDF": "AUS_Weather_Data.func",
             "params": [],
-            "timestamp": "2016-10-12T03:59:39.233Z"
+            "timestamp": "2016-10-12T04:22:08.618Z"
         },
         "script": "AUS_Weather_Data.func()"
     },
