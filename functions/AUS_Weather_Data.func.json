@@ -1,0 +1,11 @@
+{
+    "name": "AUS_Weather_Data.func",
+    "displayName": "AUS_Weather_Data.func",
+    "src": "AUS_Weather_Data.func.R",
+    "type": "user-defined-data-source",
+    "dependencies": [],
+    "timestamp": "2016-10-12T03:59:38.501Z",
+    "updatedBy": "",
+    "transform": {},
+    "inputParameters": []
+}
