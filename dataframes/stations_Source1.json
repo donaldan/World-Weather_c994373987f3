@@ -1,0 +1,22 @@
+{
+    "name": "stations_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "stations"
+    },
+    "props": {},
+    "transform": {
+        "type": "RSCRIPT",
+        "props": {
+            "udf": "stations.func",
+            "escapedUDF": "stations.func",
+            "params": [],
+            "timestamp": "2016-10-12T03:20:20.886Z"
+        },
+        "script": "stations.func()"
+    },
+    "timestamp": "2016-10-12T03:20:20.884Z"
+}

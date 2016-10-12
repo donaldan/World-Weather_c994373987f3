@@ -1,0 +1,15 @@
+{
+    "name": "stations",
+    "displayName": "stations",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "stations_Source1"
+        }
+    ],
+    "props": {},
+    "columns": [],
+    "rdata": {},
+    "timestamp": "2016-10-12T03:20:20.884Z",
+    "filename": "stations.json"
+}
