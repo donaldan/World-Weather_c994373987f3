@@ -1,0 +1,36 @@
+{
+    "name": "AUS_Weather_Data_e1949aa9e8ad",
+    "displayName": "Filter",
+    "type": "FILTER",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "AUS_Weather_Data_Source1"
+        }
+    ],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "AUS_Weather_Data"
+    },
+    "props": {},
+    "transform": {
+        "type": "",
+        "props": {},
+        "script": "filter(name == \"SYDNEY INTL AIRP\")",
+        "command": {
+            "name": "filter",
+            "conditions": [
+                {
+                    "formType": "column",
+                    "column": {
+                        "name": "name",
+                        "type": "character"
+                    },
+                    "operator": "equalTo",
+                    "val": "SYDNEY INTL AIRP"
+                }
+            ]
+        }
+    },
+    "timestamp": "2016-10-12T23:48:25.876Z"
+}
