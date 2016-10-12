@@ -1,0 +1,22 @@
+{
+    "name": "Kiwi_Weather_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "Kiwi_Weather"
+    },
+    "props": {},
+    "transform": {
+        "type": "RSCRIPT",
+        "props": {
+            "udf": "Kiwi_Weather.func",
+            "escapedUDF": "Kiwi_Weather.func",
+            "params": [],
+            "timestamp": "2016-10-12T03:51:36.156Z"
+        },
+        "script": "Kiwi_Weather.func()"
+    },
+    "timestamp": "2016-10-12T03:51:36.149Z"
+}

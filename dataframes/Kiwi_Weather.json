@@ -1,0 +1,15 @@
+{
+    "name": "Kiwi_Weather",
+    "displayName": "Kiwi_Weather",
+    "dependencies": [
+        {
+            "type": "dataframe",
+            "id": "Kiwi_Weather_Source1"
+        }
+    ],
+    "props": {},
+    "columns": [],
+    "rdata": {},
+    "timestamp": "2016-10-12T03:51:36.149Z",
+    "filename": "Kiwi_Weather.json"
+}
