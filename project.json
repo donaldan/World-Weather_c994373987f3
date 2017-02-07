@@ -1,12 +1,15 @@
 {
     "name": "World Weather",
     "description": "",
-    "timestamp": "2016-10-13T00:00:36.758Z",
+    "timestamp": "2017-02-07T04:48:18.288Z",
     "createdBy": "waverley.inc@gmail.com",
     "creatorName": "Andrew Donaldson",
     "readme": {
         "displayName": "Introduction",
         "timestamp": "2016-10-12T02:53:19.693Z",
         "updatedBy": ""
-    }
+    },
+    "updatedBy": null,
+    "scripts": [],
+    "packages": []
 }
